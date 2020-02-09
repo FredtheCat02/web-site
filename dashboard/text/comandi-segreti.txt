@@ -1,0 +1,9 @@
+PAPERA BOT
+
+comandi segreti:
+
+q!color
+q!mydick
+q!token (funziona solo per gli sviluppatori riconosciuti ufficialmente)
+q!add_perms da i permessi special al bot (funziona solo per gli sviluppatori riconosciuti ufficialmente)
+q!remve_perms toglie i opermessi (funziona solo per gli sviluppatori riconosciuti ufficialmente)

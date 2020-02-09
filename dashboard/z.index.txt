@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Papera Bot Official</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css ">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/651185347597828099/666756726711910400/quack.png" type="image/png" />
+</head>
+<body>
+  
+    <header class="header clearfix">
+        <a href="" class="header__logo">Logo</a>
+        <a href="" class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu animate">
+            <li class="header__menu__item"><a href="index.html">Home</a></li>
+            <li class="header__menu__item"><a href="">Info</a></li>
+            <li class="header__menu__item"><a href="">Item 3</a></li>
+            <li class="header__menu__item"><a href="">Item 4</a></li>
+        </ul>
+    </header>
+    
+    <section class="cover cover--single">
+        <div class="cover__filter">
+
+        </div>
+        <div class="cover__caption">
+            <div class="cover__caption__copy">
+                <h2>Dallo studio di programmazione di Fred e Jak</h2>
+                <h3>Vi presentiamo</h3>
+                <h1>Papera Bot</h1>
+                <!-- <a href="https://www.instagram.com/insta_delle_papere/" class="button">Instagram ufficiale</a> -->
+            </div>
+        </div>
+    </section>
+
+
+    <article class="single">
+        <div class="single__copy">
+                <p>CARDS Per realizzare il modulo c Crealizzare il modulo</p>
+                <p>CARDS Per realizzare il modulo c Crealizzare il modulo</p>
+                <p>CARDS Per realizzare il modulo c Crealizzare il modulo</p>
+        </div> 
+    </article>
+
+
+    <section class="cards clearfix">
+        <div class="card">
+            <img class="card__image" src="https://cdn.discordapp.com/avatars/653264341952495627/47755f5205bc1528ecb4f8ac18b6fd9b.png?size=2048" alt="Item1">
+            <div class="card__copy">
+                <h3>Card 2</h3>
+                <p>Dallo studio di programmazione di Fred e Jak Vi presentiamo Papera Bot Instagram ufficiale</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card__image" src="https://cdn.discordapp.com/avatars/653264341952495627/47755f5205bc1528ecb4f8ac18b6fd9b.png?size=2048" alt="Item1">
+            <div class="card__copy">
+                <h3>Card 2</h3>
+                <p>Dallo studio di programmazione di Fred e Jak Vi presentiamo Papera Bot Instagram ufficiale</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card__image" src="https://cdn.discordapp.com/avatars/653264341952495627/47755f5205bc1528ecb4f8ac18b6fd9b.png?size=2048" alt="Item1">
+            <div class="card__copy">
+                <h3>Card 3</h3>
+                <p>Dallo studio di programmazione di Fred e Jak Vi presentiamo Papera Bot Instagram ufficiale</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner clearfix">
+        <div class="banner__image"></div>
+        <div class="banner__copy">
+            <div class="banner__copy__text">
+                <h3>Banner Title</h3>
+                <h4>Banner Sottotitolo</h4>
+                <p>1) CARDS Per realizzare il modulo cards utilizzeremo un paio di spemolic</p>
+            </div>
+        </div>
+    </section>
+
+    <p>1) CARDS Per realizzare il modulo cards utilizzeremo un paio di spemolici ma efficaci tecniche CSS. Le card occuperanno in modalità desktop un terzo della larghezza del container. la card singola sarà composta da immagine, titolo e descrizione. In modalità smartphone le card verranno linearizzate, ovvero impilate una sotto l'altra, 2) BANNER Il banner sarà full-width occuperà quindi l'intera larghezza disponibile. In modalità desktop avrà immagine a sinistra e testo a destra. nel banner utilizzeremo in modo diverso alcune tecniche CSS molto potenti utilizzate nel modulo della cover. L'immagine verrà ridimensionata correttamente su qualsiasi risoluzione, il testo del banner sarà allineato verticalmente su qualsiasi risoluzione.  L'altezza del banner sarà percentuale.</p>
+    <p>1) CARDS Per realizzare il modulo cards utilizzeremo un paio di spemolici ma efficaci tecniche CSS. Le card occuperanno in modalità desktop un terzo della larghezza del container. la card singola sarà composta da immagine, titolo e descrizione. In modalità smartphone le card verranno linearizzate, ovvero impilate una sotto l'altra, 2) BANNER Il banner sarà full-width occuperà quindi l'intera larghezza disponibile. In modalità desktop avrà immagine a sinistra e testo a destra. nel banner utilizzeremo in modo diverso alcune tecniche CSS molto potenti utilizzate nel modulo della cover. L'immagine verrà ridimensionata correttamente su qualsiasi risoluzione, il testo del banner sarà allineato verticalmente su qualsiasi risoluzione.  L'altezza del banner sarà percentuale.</p>
+    <p>1) CARDS Per realizzare il modulo cards utilizzeremo un paio di spemolici ma efficaci tecniche CSS. Le card occuperanno in modalità desktop un terzo della larghezza del container. la card singola sarà composta da immagine, titolo e descrizione. In modalità smartphone le card verranno linearizzate, ovvero impilate una sotto l'altra, 2) BANNER Il banner sarà full-width occuperà quindi l'intera larghezza disponibile. In modalità desktop avrà immagine a sinistra e testo a destra. nel banner utilizzeremo in modo diverso alcune tecniche CSS molto potenti utilizzate nel modulo della cover. L'immagine verrà ridimensionata correttamente su qualsiasi risoluzione, il testo del banner sarà allineato verticalmente su qualsiasi risoluzione.  L'altezza del banner sarà percentuale.</p>
+
+    
+
+
+<footer class="footer">
+    <p>Copyright - Fred the Cat 2020</p>
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".header__icon-bar").click(function(e){
+            $(".header__menu").toggleClass('is-open');
+            e.preventDefault();
+        });
+    });
+</script>
+</body>
+</html>

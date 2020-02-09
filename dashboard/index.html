@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Papera Bot Official</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css ">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/651185347597828099/666756726711910400/quack.png" type="image/png" />
+</head>
+<body>
+
+        <!--<div class="alert">
+                <h1>!!ATTENZIONE!! questo è un bottone se ne vedi uno uguale in questo sito ci devi cliccare ;)</h1>
+                <img src=https://cdn.discordapp.com/attachments/651185347597828099/667471964293693499/Schermata_2020-01-16_alle_21.51.14.png type="image/png">
+                <br>
+                <br>
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times; close</span> 
+        </div>-->
+
+        
+        <script src="app.js"></script>
+  
+    <header class="header clearfix">
+        <img src="https://cdn.discordapp.com/attachments/651185347597828099/667012853622112268/Logo.png" alt="Logo" class="header__logo"></a>
+        <a href="" class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu animate">
+            <li class="header__menu__item"><a href="index.html">Home</a></li>
+            <li class="header__menu__item"><a href="comandi.html">Comandi</a></li>
+            <li class="header__menu__item"><a href="grazie.html">Riconoscimenti</a></li>
+            <li class="header__menu__item"><a href="social.html">I Nostri Social</a></li>
+            <li class="header__menu__item"><a href="secret.html">Staff Room</a></li>
+        </ul>
+    </header>
+    
+    <section class="cover cover--single">
+        <div class="cover__filter">
+
+        </div>
+        <div class="cover__caption">
+            <div class="cover__caption__copy">
+                <h2>Dallo studio di programmazione di Fred e Jak</h2>
+                <h3>Vi presentiamo</h3>
+                <h1>PAPERA BOT</h1>
+                <!-- <a href="https://www.instagram.com/insta_delle_papere/" class="button">Instagram ufficiale</a> -->
+            </div>
+        </div>
+    </section>
+
+
+    <article class="single">
+        <div class="single__copy">
+                <p>Il Papera Bot è il bot ufficiale del <a href="https://discord.gg/J9ztyHG">Regno delle Papere</a> 
+                    Nato dal fantastico sogno di Fred e Jak di realizzare un bot come esperimento e renderlo un vero Bot speciale.</p>
+                
+                <p>Ma cosa puo fare?</p>
+                <p>Signore e Signori, ecco a voi..</p>
+                <h1>PAPERA BOT AL VOSTRO SERVIZIO!</h1>
+        </div> 
+    </article>
+
+    
+
+    <section class="cards clearfix">
+        <div class="card">
+            <a href="comandi.html#Mod"><img class="card__image" src="https://cdn.discordapp.com/attachments/651185347597828099/667026194335531013/scudo.png" alt="Mod"></a>
+            <div class="card__copy">
+                <h3>Moderazione</h3>
+                <p>La Moderazione è il primo punto forte del bot, infatti è ingrado di compiere qualsiasi esigenza dello staff con grande semplicità, non è mica un caso che Il caro BOT abbia un cappello da poliziotto ;)</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="comandi.html#Stru"><img class="card__image" src="https://cdn.discordapp.com/attachments/651185347597828099/667026797740818467/lente.png" alt="Strumenti"></a>
+            <div class="card__copy">
+                <h3>Strumenti Utili</h3>
+                <p>Hai bisogno di un ruolo speciale? Informazioni? o Fare un Report?<br> Beh è tutto compreso in un unico pacchetto, ti basta solo digitare "q!strumenti" per avere tutto a disposizione!</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="comandi.html#Game"><img class="card__image" src="https://cdn.discordapp.com/attachments/651185347597828099/667025737311846422/coin.png" alt="Game"></a>
+            <div class="card__copy">
+                <h3>Giochi</h3>
+                <p>Siamo arrivati alla parte più interessante per quelli che adorano l'ironia un po forte ;)<br> Potete divertirvi con i comandi più stupidi e belli che ci siano con il Papera Bot, che aspetti vai e prova!</p>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+<footer class="footer">
+    <p>Copyright © BOT STUDIO'S Inc. - 2020</p>
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".header__icon-bar").click(function(e){
+            $(".header__menu").toggleClass('is-open');
+            e.preventDefault();
+        });
+    });
+</script>
+</body>
+</html>

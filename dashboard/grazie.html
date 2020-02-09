@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Papera Bot Official</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css ">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/651185347597828099/666756726711910400/quack.png" type="image/png" />
+</head>
+<body>
+  
+    <header class="header clearfix">
+        <img src="https://cdn.discordapp.com/attachments/651185347597828099/667012853622112268/Logo.png" alt="Logo "class="header__logo"></a>
+        <a href="" class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu animate">
+            <li class="header__menu__item"><a href="index.html">Home</a></li>
+            <li class="header__menu__item"><a href="comandi.html">Comandi</a></li>
+            <li class="header__menu__item"><a href="grazie.html">Riconoscimenti</a></li>
+            <li class="header__menu__item"><a href="social.html">I Nostri Social</a></li>
+            <li class="header__menu__item"><a href="secret.html">Staff Room</a></li>
+        </ul>
+    </header>
+    
+    <section class="cover cover--single">
+        <div class="cover__filter">
+
+        </div>
+        <div class="cover__caption">
+            <div class="cover__caption__copy">
+                <h1>Special Thanks</h1>
+                <!-- <a href="https://www.instagram.com/insta_delle_papere/" class="button">Instagram ufficiale</a> -->
+            </div>
+        </div>
+    </section>
+
+
+    <article class="single">
+        <div class="single__copy_2">
+                <h2>Riconoscimenti</h2> 
+                <h3>Un Grazie a..</h3>
+                <p>Jak - Supervisore e Capo del progetto</p>
+                <p>Fred - Sviluppatore e Designer</p>
+                <p>Nazi Doge - Rappresentante del progetto</p>
+                <p>Apetor - Test</p>
+        </div> 
+    </article>
+    
+
+    <footer class="footer__vuoto">
+        <p>  </p>
+    </footer>
+
+    <footer class="footer">
+        <p>Copyright © BOT STUDIO'S Inc. - 2020</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".header__icon-bar").click(function(e){
+            $(".header__menu").toggleClass('is-open');
+            e.preventDefault();
+        });
+    });
+</script>
+</body>
+</html>

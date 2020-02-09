@@ -1,0 +1,136 @@
+html, body{height: 100%;}
+body{background: #fff;}
+
+h1{font-family: 'Roboto', sans-serif; text-align: center;}
+h2{font-family: 'Roboto', sans-serif; text-align: center;}
+a{font-family: 'Roboto', sans-serif; text-align: center;}
+h3{font-family: 'Roboto', sans-serif; text-align: center;}
+p{font-family: 'Roboto', sans-serif; text-align: center;}
+h4{font-family: 'Roboto', sans-serif; text-align: center;}
+a{font-family: 'Roboto', sans-serif; font-size: 19px;}
+p{font-family: 'Roboto', sans-serif; font-size: 19px;}
+
+.cover img{display: block; margin-left: auto; margin-right: auto; width: 20%;}
+
+.search-box{position: absolute; top: 68%; left: 50%; transform: translate(-50%, -50%); background: rgb(33, 22, 11); height: 40px; border-radius: 40px; padding: 10px;}
+.search-txt{font-family: 'Roboto', sans-serif; color: white;}
+.search-txt{border: none; background: none; outline: none; float: left; padding: 0; line-height: 40px; width: 240px;} 
+.search-btn img{width: 50%;}
+.search-btn{float: right; width: 40px; height: 40px; border-radius: 5%; background: rgb(33, 22, 11) ; display: flex; justify-content: center; align-items: center;}
+
+.myUL {list-style-type: none;}
+
+.myUL li a {
+    border: 2px solid rgb(33, 22, 11);
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f6f6f6;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+
+.myUL{position: absolute; top: 71%; left: 41%;}
+
+.myUL li a:hover:not(.header) {
+    background-color: #eee;}
+
+
+/* mobile */
+@media (width: 375px) {
+    .search-btn{position: absolute; top: 12%; left: 80%;}
+    .cover img{display: block; margin-left: auto; margin-right: auto; width: 50%;}
+    .myUL{position: absolute; top: 70%; left: 16%;}
+    .search-box{position: absolute; 
+        top: 68%; left: 50%; 
+        transform: translate(-50%, -50%); 
+        background: rgb(33, 22, 11); 
+        height: 40px; 
+        border-radius: 40px; 
+        padding: 10px;}
+}
+
+/* mobile 2*/
+@media (width: 414px) {
+    .search-btn{position: absolute; top: 12%; left: 80%;}
+    .cover img{display: block; margin-left: auto; margin-right: auto; width: 50%;}
+    .myUL{position: absolute; top: 70%; left: 19%;}
+    .search-box{position: absolute; 
+        top: 68%; left: 50%; 
+        transform: translate(-50%, -50%); 
+        background: rgb(33, 22, 11); 
+        height: 40px; 
+        border-radius: 40px; 
+        padding: 10px;}
+}
+
+@media (width: 411px) {
+    .search-btn{position: absolute; top: 12%; left: 80%;}
+    .cover img{display: block; margin-left: auto; margin-right: auto; width: 50%;}
+    .myUL{position: absolute; top: 70%; left: 19%;}
+    .search-box{position: absolute; 
+        top: 68%; left: 50%; 
+        transform: translate(-50%, -50%); 
+        background: rgb(33, 22, 11); 
+        height: 40px; 
+        border-radius: 40px; 
+        padding: 10px;}
+}
+
+
+/* tablet */
+@media (width: 768px) {
+    .search-btn{position: absolute; top: 12%; left: 80%;}
+    .cover img{display: block; margin-left: auto; margin-right: auto; width: 58%;}
+    .myUL{position: absolute; top: 70%; left: 33%;}
+    .search-box{position: absolute; 
+        top: 68%; left: 50%; 
+        transform: translate(-50%, -50%); 
+        background: rgb(33, 22, 11); 
+        height: 40px; 
+        border-radius: 40px; 
+        padding: 10px;}
+}
+
+/* tablet 2*/
+@media (width: 1024px) {
+    .search-btn{position: absolute; top: 12%; left: 80%;}
+    .cover img{display: block; margin-left: auto; margin-right: auto; width: 58%;}
+    .myUL{position: absolute; top: 114%; left: 37%;}
+    .search-box{position: absolute; 
+        top: 112%; left: 50%; 
+        transform: translate(-50%, -50%); 
+        background: rgb(33, 22, 11); 
+        height: 40px; 
+        border-radius: 40px; 
+        padding: 10px;}
+}
+/* tablet 3*/
+@media (height: 1366px) {
+    .search-btn{position: absolute; top: 12%; left: 80%;}
+    .cover img{display: block; margin-left: auto; margin-right: auto; width: 58%;}
+    .myUL{position: absolute; top: 66%; left: 37.7%;}
+    .search-box{position: absolute; 
+        top: 64%; left: 50%; 
+        transform: translate(-50%, -50%); 
+        background: rgb(33, 22, 11); 
+        height: 40px; 
+        border-radius: 40px; 
+        padding: 10px;}
+}
+
+/* tablet 4 */
+@media (width: 1366px) {
+    .search-btn{position: absolute; top: 12%; left: 80%;}
+    .cover img{display: block; margin-left: auto; margin-right: auto; width: 58%;}
+    .myUL{position: absolute; top: 107%; left: 40.77%;}
+    .search-box{position: absolute; 
+        top: 105%; left: 50%; 
+        transform: translate(-50%, -50%); 
+        background: rgb(33, 22, 11); 
+        height: 40px; 
+        border-radius: 40px; 
+        padding: 10px;}
+}
